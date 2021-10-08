@@ -1,8 +1,8 @@
 {
-  "name-web":"STACKOVERFLOW MASKODING",
-  "author":"MASKODING",
+  "name-web":"TIME | Current & Breaking News | National & World Updates",
+  "author":"AGCINA",
   "remove-comment-html":true,
-  "target":"https://m.tribunnews.com",
+  "target":"https://time.com",
   "name-folder-sitemap":"sitemap",
   "element-remove":[
     "script",
@@ -210,6 +210,21 @@
         {
           "name-attribute":"content",
           "value-attribute":"${authorPost}"
+        }
+      ],
+      "data-innerHTML":"",
+      "position":"start"
+    },
+	 {
+      "name-element":"meta",
+      "data-attribute":[
+        {
+          "name-attribute":"name",
+          "value-attribute":"msvalidate.01"
+        },
+        {
+          "name-attribute":"content",
+          "value-attribute":"A8310114CE9EB66B3668E14B571730E9"
         }
       ],
       "data-innerHTML":"",
