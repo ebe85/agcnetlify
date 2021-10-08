@@ -2,7 +2,7 @@
   "name-web":"TIME | Current & Breaking News | National & World Updates",
   "author":"AGCINA",
   "remove-comment-html":true,
-  "target":"https://time.com",
+  "target":"https://www.theitaliantimes.it",
   "name-folder-sitemap":"sitemap",
   "element-remove":[
     "script",
