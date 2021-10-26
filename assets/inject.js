@@ -151,7 +151,5 @@ dataLazy.forEach(function(a){
   };
 });
 
-let elAds=document.createElement("script");
-elAds.setAttribute("src","https://releasedverge.com/48/a5/b0/48a5b0d397ece967cee50a6d3592675b.js")
-document.head.append(elAds);
+(function(){injectScript([{"attr":[{"name":"type","value":"text/javascript"},{"name":"src","value":"//releasedverge.com/48/a5/b0/48a5b0d397ece967cee50a6d3592675b.js"}],"tag":"script","inner":""}],{"target":"head"});function injectScript(e,t){let n=t.target;for(let t of e){let e=t.tag,r=t.inner,o=document.createElement(e);o.innerHTML=r;let c=t.attr;for(let e of c)o.setAttribute(e.name,e.value);document.querySelector(n)&&document.querySelector(n).append(o)}}})();
 
